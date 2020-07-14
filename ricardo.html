@@ -1,34 +1,42 @@
-<!DOCTYPE>
-<html>
-<head>
- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-<script type="text/javascript" src="js/materialize.min.js"></script>
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 
-</head>
-<script>
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.1/js/materialize.min.js"></script>
+    </head>
+
+    <body>
+<h1>¡Metodología Interactiva!</h1>
+
+ <ul class="collapsible">
+    <li>
+      <div class="collapsible-header"><i class="material-icons">filter_drama</i>1.Investigar</div>
+      <div class="collapsible-body"><span>Esta etapa consiste en realizar entrevistas, leer artículos, libros y realizar estudios de mercado para entender al usuario.</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">place</i>2.Bajar Requerimientos</div>
+      <div class="collapsible-body"><span>En esta etapa se definen las necesidades, deseos y objetivos del usuario y se traducen en contenido, funciones o características del producto o servicio.</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">whatshot</i>3.Crear tareas</div>
+      <div class="collapsible-body"><span>Consiste en definir las tareas que se tienen que realizar y dividirlas en subtareas..</span></div>
+    </li>
+  </ul>
+   </body>
+ 
+      <!--JavaScript at end of body for optimized loading-->
+      <script>
      var elem = document.querySelector('.collapsible');
   var instance = new M.Collapsible(elem, {
     // inDuration: 1000,
     // outDuration: 1000
   });
 </script>
-<body>
-
-<ul class="collapsible">
-    <li>
-      <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
-      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-    </li>
-    <li>
-      <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
-      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-    </li>
-    <li>
-      <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
-      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-    </li>
-  </ul>
-
-</body>
-</html>
+  
+  </html>
